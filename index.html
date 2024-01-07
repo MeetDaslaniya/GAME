@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+  </head>
+  <body>
+    <h1>World best game</h1>
+    <form action="#">
+      <label> Enter upper value</label>
+      <input
+        type="number"
+        id="range"
+        min="0"
+        max="100"
+        placeholder="Enter upper value"
+      /><br /><br />
+      <label>Enter number of user</label>
+      <select id="no_of_player">
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </form>
+    <button class="submit" onclick="main()">Submit</button>
+    <script src="./main.js"></script>
+  </body>
+</html>
